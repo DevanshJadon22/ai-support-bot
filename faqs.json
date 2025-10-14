@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What are your business hours?",
+    "answer": "Our business hours are from 9 AM to 6 PM, Monday to Friday."
+  },
+  {
+    "question": "How do I reset my password?",
+    "answer": "You can reset your password by clicking the 'Forgot Password' link on the login page."
+  },
+  {
+    "question": "What is the return policy?",
+    "answer": "You can return any item within 30 days of purchase for a full refund. The item must be in its original condition."
+  }
+]
