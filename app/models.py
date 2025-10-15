@@ -18,3 +18,11 @@ class Message(db.Model):
     role = db.Column(db.String(10), nullable=False)  # 'user' or 'assistant'
     content = db.Column(db.Text, nullable=False)
     timestamp = db.Column(db.DateTime, default=datetime.utcnow)
+
+# PASTE THE FUNCTION HERE
+def create_new_session():
+    """Creates and saves a new chat session."""
+    new_session = ChatSession()
+    db.session.add(new_session)
+    db.session.commit()
+    return new_session

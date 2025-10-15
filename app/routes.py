@@ -1,7 +1,10 @@
 from flask import request, jsonify
 from flask import current_app as app
 from .models import db, ChatSession
-from .services import get_llm_response, create_new_session
+# from .services import get_llm_response, create_new_session
+# AFTER
+from .services import get_llm_response
+from .models import create_new_session
 
 @app.route('/session', methods=['POST'])
 def start_session():
